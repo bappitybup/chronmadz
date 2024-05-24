@@ -13,11 +13,15 @@ config_version=5
 config/name="chronmadz"
 run/main_scene="res://assets/scenes/TaskMenu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
 
 [autoload]
 
 GlobalMain="*res://assets/global_scripts/global_main.gd"
+
+[display]
+
+window/size/viewport_width=500
+window/size/viewport_height=500
 
 [dotnet]
 
